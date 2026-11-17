@@ -17,7 +17,7 @@
 
 ---
 
-<h2 align="center">Protocols</h2>
+## Protocols
 
 <p align="center">
   <img src="https://img.shields.io/badge/SSH-SLOWDNS-7952B3?style=for-the-badge&logo=cloudflare&logoColor=white" alt="SSH SlowDNS" /><br>
@@ -31,7 +31,7 @@
 
 ---
 
-<h2 align="center">Installation</h2>
+## Installation
 
 ### 1.
 
