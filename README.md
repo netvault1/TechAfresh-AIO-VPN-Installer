@@ -58,7 +58,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 bash <(curl -4sL https://vpn.techafresh.org.ng/install.sh)
 ```
 ## 3. Menu Command
-
+Navigate through script menu after installation.
 ```bash
 menu
 ```
