@@ -4,10 +4,6 @@
   Complete All-In-One VPN auto-installer and CLI management suite for Ubuntu (20.04 / 22.04 / 24.04 / 26.04+) and Debian (11 / 12 / 13+).
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/debian/debian-original.svg" width="110" alt="Debian Logo" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" width="110" alt="Ubuntu Logo" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/DEBIAN_11-BULLSEYE-7952B3?style=for-the-badge&logo=debian&logoColor=white" alt="Debian 11" /><br>
@@ -35,7 +31,7 @@
 
 ---
 
-## Installation
+<h2 align="center">Installation</h2>
 
 ### 1.
 
@@ -56,7 +52,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 ![Install All Service VPN](https://img.shields.io/badge/Install_All_Service_VPN-7952B3?style=flat-square)
 
-* **One Click Install Command**
+ **One Click Install Command**
 
 ```bash
 bash <(curl -4sL https://vpn.techafresh.org.ng/install.sh)
@@ -68,18 +64,15 @@ bash <(curl -4sL https://vpn.techafresh.org.ng/install.sh)
 
 | Service | Port |
 | :--- | :--- |
-| **OpenSSH** | `22` |
-| **Dropbear** | `109, 143` |
-| **Stunnel4 SSL** | `443, 447, 777` |
-| **SlowDNS** | `53 (UDP)` |
-| **SSH WS** | `80 (HTTP), 443 (TLS)` |
-| **OpenVPN TCP** | `443, 1194` |
-| **OpenVPN UDP** | `53, 1195` |
-| **UDP Custom** | `1-65535` |
-| **BadVPN UDPGW** | `7100, 7200, 7300` |
-| **XRAY Vmess TLS** | `443` |
-| **XRAY Vmess None TLS** | `80` |
-| **XRAY Vless TLS** | `443` |
-| **XRAY Vless None TLS** | `80` |
-| **XRAY Trojan TLS** | `443` |
-| **XRAY Trojan None TLS** | `443` |
+| **OpenSSH** | 22 |
+| **Dropbear** | 109, 143 |
+| **Stunnel4 SSL** | 443, 447, 777 |
+| **SlowDNS** | 53 (UDP) |
+| **SSH WS** | 80 (HTTP), 443 (TLS) |
+| **OpenVPN TCP** | 443, 1194 |
+| **OpenVPN UDP** | 53, 1195 |
+| **UDP Custom** | 1-65535 |
+| **BadVPN UDPGW** | 7100, 7200, 7300 |
+| **XRAY Vmess TLS & Non** | 443, 80 |
+| **XRAY Vless TLS & Non** | 443, 80 |
+| **XRAY Trojan TLS & Non** | 443, 80 |
