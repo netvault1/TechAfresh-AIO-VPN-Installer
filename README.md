@@ -74,7 +74,7 @@ menu
 | **SlowDNS** | 53 (UDP) |
 | **SSH WS** | 80 (HTTP), 443 (TLS) |
 | **OpenVPN TCP** | 443, 1194 |
-| **OpenVPN UDP** | 53, 1195 |
+| **OpenVPN UDP** | 1195 |
 | **UDP Custom** | 1-65535 |
 | **BadVPN UDPGW** | 7100, 7200, 7300 |
 | **XRAY Vmess TLS & Non** | 443, 80 |
